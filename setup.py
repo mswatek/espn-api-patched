@@ -8,7 +8,7 @@ with open("README.md") as f:
     readme = f.read()
 
 setup(
-    name='espn_api',
+    name='espn-api',
     packages=find_packages(),
     version=pkg_vars["__version__"],
     author='Christian Wendt',
@@ -28,4 +28,5 @@ setup(
     python_requires='>=3.6',
 
 )
+
 
